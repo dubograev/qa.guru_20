@@ -16,15 +16,15 @@ public class BrowserStackIosTests {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         // Set your access credentials
-        caps.setCapability("browserstack.user", "qaguru3");
-        caps.setCapability("browserstack.key", "PDQAwqS6GqzeNLqsj92r");
+        caps.setCapability("browserstack.user", "andy1154");
+        caps.setCapability("browserstack.key", "ehHZ5bKmTjmu8236HsAK");
 
         // Set URL of the application under test
         caps.setCapability("app", "bs://444bd0308813ae0dc236f8cd461c02d3afa7901d");
 
         // Specify device and os_version for testing
-        caps.setCapability("device", "iPhone XS");
-        caps.setCapability("os_version", "12");
+        caps.setCapability("device", "iPhone 12 Pro Max");
+        caps.setCapability("os_version", "14");
 
         // Set other BrowserStack capabilities
         caps.setCapability("project", "First Java Project");

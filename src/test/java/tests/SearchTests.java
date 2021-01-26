@@ -31,7 +31,7 @@ import static org.openqa.selenium.By.className;
 class SearchTests extends TestBase {
 
     @Test
-    @Disabled("Example without steps")
+    //@Disabled("Example without steps")
     @DisplayName("Successful search in wikipedia android app")
     void successfulSearch() {
         open();
@@ -68,7 +68,7 @@ class SearchTests extends TestBase {
     }
 
     @Test
-    @Disabled("Java + Appium")
+    //@Disabled("Java + Appium")
     @DisplayName("Successful search in wikipedia android app")
     void successfulSearchDisabled() throws InterruptedException, MalformedURLException {
         // Move to TestBase
